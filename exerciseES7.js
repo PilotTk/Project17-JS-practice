@@ -25,7 +25,7 @@ function hundred(x) {
 let obj = {
 	username0: "Santa",
 	username1: "Rudolf",
-	username2: "Shit"
+	username2: "RedNose"
 }
 
 Object.keys(obj).forEach((key, index) => {

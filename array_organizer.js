@@ -1,4 +1,4 @@
-// Question 1: Clean the room function: 
+// Clean the room function: 
 // function that organizes array into 
 // individual arrays that are ordered. 
 // Organizes strings differently from number types.

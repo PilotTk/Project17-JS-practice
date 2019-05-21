@@ -39,7 +39,7 @@ function biggestNumberInArray(arr) {
 
 
 const array2 = ['a', 3, 4, 2]
-function fuck(arr) {
+function findNumber(arr) {
   for (let i=0; i < array2.length; i++) {
     if ( array2[i] < array2[i + 1] ) {
       
@@ -71,16 +71,16 @@ function fuck(arr) {
   return total + num;
   }
 
-  function eatshit(item) {
+  function sorting(item) {
     console.log(array2.reduce(getSum));
   }
 
-  eatshit();
+  sorting();
 }
 
 
 
-fuck(array2);
+findNumber(array2);
 // console.log(array2);
 
 function biggestNumberInArray3(arr) {

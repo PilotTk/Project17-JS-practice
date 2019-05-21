@@ -15,11 +15,11 @@ object1.a = 4;
 // create a cow that accepts a name, type and color 
 // and has a sound method that moo's her name, type and color. 
 
-const Animal = { a: "bitch", b: "squirrel", c: "brown", d: "weird"}
-const Mammal = { a: "dick", b: "pig", c: "red", d: "stinky"}
+const Animal = { a: "Doggo", b: "Dog", c: "spotty", d: "fluffy"}
+const Mammal = { a: "Rudolph", b: "reindeer", c: "red", d: "nose"}
 
 
-const shit = {
+const animalArray = {
 
 	a: Animal.a,
 	b: Mammal.b,
@@ -48,7 +48,7 @@ class Mamal extends Animal {
 	}
 }
 
-const cow = new Mamal('Shelly', 'cow', 'brown');
+const cow = new Mammal('Shelly', 'cow', 'brown');
 
 
 
